@@ -1,0 +1,19 @@
+Tupla A1 = (72008;)
+Tupla A2 = 0;
+---------AIs---------
+AI 1 = ChromosomeAI_P1 {If:{SimpleConditional{HaveUnitsToDistantToEnemy [UnitTypeParam:{selectedTypes=[Heavy]}, DistanceParam:{value=18}]} Then:{{BuildBasic:{Params:{ConstructionTypeParam:{selectedTypes=[Barracks]},QuantityParam:{value=50},PriorityPositionParam:{selectedPosition=[Up]}}}}} Else:{{MoveToUnitBasic:{Params:{UnitTypeParam:{selectedTypes=[Ranged]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},MostHealthyEnemy:{-}}}}}}}
+AI 2 = ChromosomeAI_P1 forFunction{{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Ranged]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},MostHealthyEnemy:{-}}}}}forFunction{{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Worker]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},LessHealthyEnemy:{-}}}}}
+
+---------Mapa---------
+Mapa= maps/battleMaps/Others/RangedHeavyMixed.xml
+
+Total de actions= 235 sumAi1= 0.0 sumAi2= 1.0
+
+Tempos de AI 1 = ChromosomeAI_P1 {If:{SimpleConditional{HaveUnitsToDistantToEnemy [UnitTypeParam:{selectedTypes=[Heavy]}, DistanceParam:{value=18}]} Then:{{BuildBasic:{Params:{ConstructionTypeParam:{selectedTypes=[Barracks]},QuantityParam:{value=50},PriorityPositionParam:{selectedPosition=[Up]}}}}} Else:{{MoveToUnitBasic:{Params:{UnitTypeParam:{selectedTypes=[Ranged]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},MostHealthyEnemy:{-}}}}}}}
+Tempo minimo= 0.0 Tempo maximo= 0.0 Tempo medio= 0.0
+Tempos de AI 2 = ChromosomeAI_P1 forFunction{{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Ranged]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},MostHealthyEnemy:{-}}}}}forFunction{{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Worker]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},LessHealthyEnemy:{-}}}}}
+Tempo minimo= 0.0 Tempo maximo= 1.0 Tempo medio= 0.00425531914893617
+
+Winner 1
+Game Over
+Avg Response ChromosomeAI_P1 forFunction{{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Ranged]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},MostHealthyEnemy:{-}}}}}forFunction{{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Worker]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},LessHealthyEnemy:{-}}}}} 1

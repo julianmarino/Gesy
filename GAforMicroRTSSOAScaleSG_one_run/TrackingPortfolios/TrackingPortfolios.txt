@@ -1,0 +1,12 @@
+New Loop
+Player0
+ moveToUnit(Light,Ally,mostHealthy)
+Player1
+ moveToUnit(Light,Ally,mostHealthy)
+
+New Loop
+Player0
+ for(u) (if(HaveQtdEnemiesbyType(Light,7,u)) (attack(Light,closest,u)) (train(Ranged,50,EnemyDir,u) moveToUnit(Worker,Enemy,closest,u)) if(HaveQtdUnitsHarversting(19,u)) (build(Barrack,50,Left,u)) attack(Worker,mostHealthy,u) if(HaveUnitsToDistantToEnemy(Light,3,u)) (train(Worker,50,Right,u) moveToUnit(Light,Enemy,strongest,u)) (attack(Ranged,weakest,u)) moveaway(Light,u))
+Player1
+ for(u) (if(HaveQtdEnemiesbyType(Light,7,u)) (attack(Light,closest,u)) (train(Ranged,50,EnemyDir,u) moveToUnit(Worker,Enemy,closest,u)) if(HaveQtdUnitsHarversting(19,u)) (build(Barrack,50,Left,u)) attack(Worker,mostHealthy,u) if(HaveUnitsToDistantToEnemy(Light,3,u)) (train(Worker,50,Right,u) moveToUnit(Light,Enemy,strongest,u)) (attack(Ranged,weakest,u)) moveaway(Light,u))
+

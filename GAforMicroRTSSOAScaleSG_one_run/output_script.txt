@@ -1,0 +1,1 @@
+for(u) (attack(Ranged,lessHealthy,u) attack(Heavy,mostHealthy,u))

@@ -1,0 +1,20 @@
+Tupla A1 = (35876;)
+Tupla A2 = 8132;
+---------AIs---------
+AI 1 = ChromosomeAI_P1 {If:{SimpleConditional{HaveQtdUnitsAttacking [QuantityParam:{value=14}, UnitTypeParam:{selectedTypes=[Heavy]}]} Then:{{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},LessHealthyEnemy:{-}}}}}}}{BuildBasic:{Params:{ConstructionTypeParam:{selectedTypes=[Barracks]},QuantityParam:{value=50},PriorityPositionParam:{selectedPosition=[Down]}}}}
+AI 2 = ChromosomeAI_P1 {MoveToUnitBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},WeakestEnemy{-}}}}{TrainBasic:{Params:{ConstructionTypeParam:{selectedTypes=[Base]},UnitTypeParam:{selectedTypes=[Worker]},QuantityParam:{value=50},PriorityPositionParam:{selectedPosition=[Down]}}}}
+
+---------Mapa---------
+Mapa= maps/battleMaps/Others/RangedHeavyMixed.xml
+
+Total de actions= 2000 sumAi1= 1.0 sumAi2= 2.0
+
+Tempos de AI 1 = ChromosomeAI_P1 {If:{SimpleConditional{HaveQtdUnitsAttacking [QuantityParam:{value=14}, UnitTypeParam:{selectedTypes=[Heavy]}]} Then:{{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},LessHealthyEnemy:{-}}}}}}}{BuildBasic:{Params:{ConstructionTypeParam:{selectedTypes=[Barracks]},QuantityParam:{value=50},PriorityPositionParam:{selectedPosition=[Down]}}}}
+Tempo minimo= 0.0 Tempo maximo= 1.0 Tempo medio= 5.0E-4
+Tempos de AI 2 = ChromosomeAI_P1 {MoveToUnitBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},WeakestEnemy{-}}}}{TrainBasic:{Params:{ConstructionTypeParam:{selectedTypes=[Base]},UnitTypeParam:{selectedTypes=[Worker]},QuantityParam:{value=50},PriorityPositionParam:{selectedPosition=[Down]}}}}
+Tempo minimo= 0.0 Tempo maximo= 1.0 Tempo medio= 0.001
+
+Winner -1
+Game Over
+Avg Response ChromosomeAI_P1 {If:{SimpleConditional{HaveQtdUnitsAttacking [QuantityParam:{value=14}, UnitTypeParam:{selectedTypes=[Heavy]}]} Then:{{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},LessHealthyEnemy:{-}}}}}}}{BuildBasic:{Params:{ConstructionTypeParam:{selectedTypes=[Barracks]},QuantityParam:{value=50},PriorityPositionParam:{selectedPosition=[Down]}}}} 1
+Avg Response ChromosomeAI_P1 {MoveToUnitBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},WeakestEnemy{-}}}}{TrainBasic:{Params:{ConstructionTypeParam:{selectedTypes=[Base]},UnitTypeParam:{selectedTypes=[Worker]},QuantityParam:{value=50},PriorityPositionParam:{selectedPosition=[Down]}}}} 0
