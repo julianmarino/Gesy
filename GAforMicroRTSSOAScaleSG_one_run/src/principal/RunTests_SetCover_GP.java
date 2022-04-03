@@ -48,23 +48,23 @@ public class RunTests_SetCover_GP {
 
 	public static void main(String[] args) {
 		
-        File file1 = new File(System.getProperty("user.dir").concat("/centralSOA/"));
+        File file1 = new File("centralSOA/");
         deleteDirectory(file1);
-        File file2 = new File(System.getProperty("user.dir").concat("/commandsUsed/COMM1/"));
+        File file2 = new File("commandsUsed/COMM1/" );
         deleteDirectory(file2);
-        File file3 = new File(System.getProperty("user.dir").concat("/configSOA/SOA1/"));
+        File file3 = new File("configSOA/SOA1/");
         deleteDirectory(file3);
-        File file4 = new File(System.getProperty("user.dir").concat("/FixedTrace/"));
+        File file4 = new File("FixedTrace/");
         deleteDirectory(file4);
-        File file5 = new File(System.getProperty("user.dir").concat("/logs/"));
+        File file5 = new File("logs/");
         deleteDirectory(file5);
-        File file6 = new File(System.getProperty("user.dir").concat("/logs_game/"));
+        File file6 = new File("logs_game/");
         deleteDirectory(file6);
-        File file7 = new File(System.getProperty("user.dir").concat("/Table/"));
+        File file7 = new File("Table/");
         deleteDirectory(file7);
-        File file8 = new File(System.getProperty("user.dir").concat("/TableInitialPortfolio/"));
+        File file8 = new File("TableInitialPortfolio/");
         deleteDirectory(file8);
-        File file9 = new File(System.getProperty("user.dir").concat("/Tracking/"));
+        File file9 = new File("Tracking/");
         deleteDirectory(file9);
 		
 		String curriculumportfolio="empty";
@@ -179,7 +179,7 @@ public class RunTests_SetCover_GP {
 		}
 		String curriculumportfolioIds=curriculumportfolio;
 		curriculumportfolio=ga.recoverScriptGenotype(curriculumportfolio).trim();
-		System.out.println("curriculumportfolio "+curriculumportfolio);
+		System.out.println("Best script  "+curriculumportfolio);
 		try {
 			ga.runMainGame(curriculumportfolio,curriculumportfolio);
 		} catch (Exception e) {
@@ -190,7 +190,7 @@ public class RunTests_SetCover_GP {
 		//print the best script
 		PrintWriter writer;
 		try {
-			writer = new PrintWriter("output_script.txt", "UTF-8");
+			writer = new PrintWriter("../results/output_script.txt", "UTF-8");
 			writer.println(curriculumportfolio);
 			writer.close();
 		} catch (FileNotFoundException e) {
@@ -212,6 +212,7 @@ public class RunTests_SetCover_GP {
 	
     public static void deleteDirectory(File file)
     {
+    	System.out.println("directory to delete ");
         // store all the paths of files and folders present
         // inside directory
         for (File subfile : file.listFiles()) {

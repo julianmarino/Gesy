@@ -2,7 +2,7 @@ package ga.config;
 
 public final class ConfigurationsGA {
 	public static final int SIZE_CHROMOSOME = 1;
-	 public static final int SIZE_POPULATION = 20;
+	 public static final int SIZE_POPULATION = 10;
 	 public static final int NUMBER_JOBS = 39;
 	 public static final int SIZE_ELITE = 3;
 	 public static final int SIZE_INVADERS = 3;
@@ -21,7 +21,7 @@ public final class ConfigurationsGA {
 	 public static final int SIZE_TABLE_SCRIPTS = 80000;
 	 public static final int TYPE_CONTROL = 1;
 	 public static final int TIME_GA_EXEC = 13; 
-	 public static final int QTD_GENERATIONS = 3;
+	 public static final int QTD_GENERATIONS = 5;
 	 public static final int deltaForMutation = 1;
 	 public static final boolean RESET_ENABLED = true;
 	 public static final boolean MUTATION_ORDER_ENABLED = true;
