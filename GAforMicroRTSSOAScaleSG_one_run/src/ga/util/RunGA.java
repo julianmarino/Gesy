@@ -113,7 +113,7 @@ public class RunGA {
 			evalFunction.setEliteIndividuals(eliteIndividuals);
 			population = evalFunction.evalPopulation(population, this.generations, scrTable);			
 			
-//			population.printWithValue(f0);
+			population.printWithValue(f0);
 //			System.out.println("sep");
 		
 			//Get all the used commands
