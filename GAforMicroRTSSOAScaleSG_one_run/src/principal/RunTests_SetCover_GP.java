@@ -48,23 +48,23 @@ public class RunTests_SetCover_GP {
 
 	public static void main(String[] args) {
 		
-        File file1 = new File("centralSOA/");
+        File file1 = new File(System.getProperty("user.dir").concat("/centralSOA/"));
         deleteDirectory(file1);
-        File file2 = new File("commandsUsed/COMM1/" );
+        File file2 = new File(System.getProperty("user.dir").concat("commandsUsed/COMM1/" ));
         deleteDirectory(file2);
-        File file3 = new File("configSOA/SOA1/");
+        File file3 = new File(System.getProperty("user.dir").concat("configSOA/SOA1/"));
         deleteDirectory(file3);
-        File file4 = new File("FixedTrace/");
+        File file4 = new File(System.getProperty("user.dir").concat("FixedTrace/"));
         deleteDirectory(file4);
-        File file5 = new File("logs/");
+        File file5 = new File(System.getProperty("user.dir").concat("logs/"));
         deleteDirectory(file5);
-        File file6 = new File("logs_game/");
+        File file6 = new File(System.getProperty("user.dir").concat("logs_game/"));
         deleteDirectory(file6);
-        File file7 = new File("Table/");
+        File file7 = new File(System.getProperty("user.dir").concat("Table/"));
         deleteDirectory(file7);
-        File file8 = new File("TableInitialPortfolio/");
+        File file8 = new File(System.getProperty("user.dir").concat("TableInitialPortfolio/"));
         deleteDirectory(file8);
-        File file9 = new File("Tracking/");
+        File file9 = new File(System.getProperty("user.dir").concat("Tracking/"));
         deleteDirectory(file9);
 		
 		String curriculumportfolio="empty";
