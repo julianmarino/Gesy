@@ -1,0 +1,19 @@
+Tupla A1 = (170;)
+Tupla A2 = 170;
+---------AIs---------
+AI 1 = ChromosomeAI_P1 {AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},StrongestEnemy{-}}}}
+AI 2 = ChromosomeAI_P1 {AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},StrongestEnemy{-}}}}
+
+---------Mapa---------
+Mapa= maps/battleMaps/Others/RangedHeavyMixed.xml
+
+Total de actions= 376 sumAi1= 1.0 sumAi2= 0.0
+
+Tempos de AI 1 = ChromosomeAI_P1 {AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},StrongestEnemy{-}}}}
+Tempo minimo= 0.0 Tempo maximo= 1.0 Tempo medio= 0.0026595744680851063
+Tempos de AI 2 = ChromosomeAI_P1 {AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},StrongestEnemy{-}}}}
+Tempo minimo= 0.0 Tempo maximo= 0.0 Tempo medio= 0.0
+
+Winner 0
+Game Over
+Avg Response ChromosomeAI_P1 {AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},StrongestEnemy{-}}}} 1

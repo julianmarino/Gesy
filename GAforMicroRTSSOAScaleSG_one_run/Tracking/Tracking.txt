@@ -1,351 +1,147 @@
 -- Population --
-Chromosome 40994 
-Value = 4.0
-Chromosome 40178 
-Value = 4.0
-Chromosome 44275 
+Chromosome 14994 
+Value = 7
+Chromosome 45924 
+Value = 3.0
+Chromosome 29252 
+Value = 3.0
+Chromosome 27016 
+Value = 3.0
+Chromosome 170 
 Value = 9
-Chromosome 38071 
-Value = 4.0
-Chromosome 12008 
-Value = 4.0
-Chromosome 5753 
-Value = 4.0
-Chromosome 54042 
-Value = 4.0
-Chromosome 32111 
-Value = 4.0
-Chromosome 58975 
-Value = 7.0
+Chromosome 59502 
+Value = 3.0
 Chromosome 0 
-Value = 8
+Value = 3.0
+Chromosome 3200 
+Value = 3.0
+Chromosome 38065 
+Value = 9
+Chromosome 69040 
+Value = 3.0
 -- Population --
 Log - Generation = 0
 -- Population --
-Chromosome 40994 
-Value = 4.0
-Chromosome 40178 
-Value = 4.0
-Chromosome 44275 
+Chromosome 14994 
+Value = 7
+Chromosome 45924 
+Value = 3.0
+Chromosome 29252 
+Value = 3.0
+Chromosome 27016 
+Value = 3.0
+Chromosome 170 
 Value = 9
-Chromosome 38071 
-Value = 4.0
-Chromosome 12008 
-Value = 4.0
-Chromosome 5753 
-Value = 4.0
-Chromosome 54042 
-Value = 4.0
-Chromosome 32111 
-Value = 4.0
-Chromosome 58975 
-Value = 7.0
+Chromosome 59502 
+Value = 3.0
 Chromosome 0 
-Value = 8
+Value = 3.0
+Chromosome 3200 
+Value = 3.0
+Chromosome 38065 
+Value = 9
+Chromosome 69040 
+Value = 3.0
 -- Population --
 Log - Generation = 0
 -- Population --
-Chromosome 258 
-Value = 4.0
+Chromosome 57410 
+Value = 0
 Chromosome 80002 
+Value = 7
+Chromosome 53382 
+Value = 0
+Chromosome 1864 
+Value = 0
+Chromosome 6856 
+Value = 0
+Chromosome 170 
 Value = 9
-Chromosome 58499 
+Chromosome 57226 
 Value = 0
-Chromosome 265 
-Value = 7.0
-Chromosome 67949 
+Chromosome 6347 
 Value = 0
-Chromosome 51598 
+Chromosome 38124 
 Value = 0
-Chromosome 62385 
+Chromosome 2765 
+Value = 9
+Chromosome 59118 
 Value = 0
-Chromosome 24913 
+Chromosome 52974 
 Value = 0
-Chromosome 16178 
+Chromosome 65649 
 Value = 0
-Chromosome 373 
-Value = 4.0
-Chromosome 49686 
+Chromosome 8179 
 Value = 0
-Chromosome 50775 
+Chromosome 36758 
 Value = 0
-Chromosome 1016 
-Value = 4.0
-Chromosome 41400 
+Chromosome 20184 
 Value = 0
-Chromosome 443 
-Value = 4.0
-Chromosome 4859 
+Chromosome 48184 
 Value = 0
-Chromosome 66045 
+Chromosome 62524 
 Value = 0
-Chromosome 604 
+Chromosome 22333 
 Value = 0
-Chromosome 925 
-Value = 4.0
-Chromosome 36765 
+Chromosome 67772 
 Value = 0
-Chromosome 73663 
-Value = 0
+Chromosome 0 
+Value = 3.0
 Chromosome 80001 
-Value = 8
-Chromosome 24128 
-Value = 0
+Value = 3.0
 Chromosome 80000 
-Value = 4.0
+Value = 3.0
+Chromosome 55777 
+Value = 0
 -- Population --
 Log - Generation = 1
 -- Population --
-Chromosome 258 
-Value = 1.0
-Chromosome 130 
-Value = 3.0
-Chromosome 80002 
-Value = 9
-Chromosome 15427 
-Value = 0
-Chromosome 35109 
-Value = 0
-Chromosome 265 
-Value = 7
-Chromosome 78539 
-Value = 0
-Chromosome 57642 
-Value = 0
-Chromosome 31818 
-Value = 0
-Chromosome 77391 
-Value = 0
-Chromosome 34927 
-Value = 0
-Chromosome 43311 
-Value = 0
-Chromosome 34671 
-Value = 0
-Chromosome 62034 
-Value = 0
-Chromosome 76338 
-Value = 0
-Chromosome 16084 
-Value = 0
-Chromosome 61429 
-Value = 0
-Chromosome 40120 
-Value = 0
-Chromosome 5819 
-Value = 0
-Chromosome 925 
-Value = 1.0
-Chromosome 157 
-Value = 8
-Chromosome 51710 
-Value = 0
-Chromosome 68894 
-Value = 0
-Chromosome 2496 
-Value = 5.0
--- Population --
-Log - Generation = 2
--- Population --
-Chromosome 57474 
+Chromosome 69059 
 Value = 0
 Chromosome 80002 
-Value = 9
-Chromosome 75938 
+Value = 3
+Chromosome 7107 
 Value = 0
-Chromosome 53955 
+Chromosome 74946 
 Value = 0
-Chromosome 80007 
-Value = 3.0
-Chromosome 71238 
-Value = 0
-Chromosome 66569 
-Value = 0
-Chromosome 265 
-Value = 5
-Chromosome 12201 
-Value = 0
-Chromosome 8329 
-Value = 0
-Chromosome 18956 
-Value = 0
-Chromosome 32240 
-Value = 0
-Chromosome 16400 
-Value = 0
-Chromosome 7282 
-Value = 3.5
-Chromosome 73083 
-Value = 0
-Chromosome 925 
-Value = 1.0
-Chromosome 157 
-Value = 7.0
-Chromosome 19581 
-Value = 0
-Chromosome 51645 
-Value = 0
-Chromosome 53501 
-Value = 0
-Chromosome 70303 
-Value = 0
-Chromosome 447 
-Value = 5.5
-Chromosome 37632 
-Value = 0
-Chromosome 31713 
-Value = 0
--- Population --
-Log - Generation = 3
--- Population --
-Chromosome 80002 
-Value = 9
-Chromosome 72869 
-Value = 0
-Chromosome 72036 
-Value = 0
-Chromosome 62757 
-Value = 0
-Chromosome 41990 
-Value = 0
-Chromosome 13479 
-Value = 0
-Chromosome 80009 
-Value = 4
-Chromosome 60776 
-Value = 0
-Chromosome 23816 
-Value = 0
-Chromosome 265 
+Chromosome 80005 
+Value = 2
+Chromosome 356 
 Value = 2.0
-Chromosome 73128 
+Chromosome 43012 
 Value = 0
-Chromosome 63626 
-Value = 0
-Chromosome 28146 
-Value = 0
-Chromosome 17108 
-Value = 0
-Chromosome 27605 
-Value = 0
-Chromosome 48600 
-Value = 0
-Chromosome 72506 
-Value = 0
-Chromosome 61020 
-Value = 0
-Chromosome 157 
-Value = 7.0
-Chromosome 31709 
-Value = 0
-Chromosome 43934 
-Value = 0
-Chromosome 447 
-Value = 3.5
-Chromosome 7519 
-Value = 0
-Chromosome 70880 
-Value = 0
--- Population --
-Log - Generation = 4
--- Population --
-Chromosome 80002 
-Value = 9
-Chromosome 58179 
-Value = 0
-Chromosome 61670 
-Value = 0
-Chromosome 63302 
-Value = 0
-Chromosome 80009 
-Value = 3
-Chromosome 61353 
-Value = 0
-Chromosome 73000 
-Value = 0
-Chromosome 43723 
-Value = 0
-Chromosome 69069 
-Value = 0
-Chromosome 3309 
-Value = 2
-Chromosome 50992 
-Value = 0
-Chromosome 7760 
-Value = 0
-Chromosome 57074 
-Value = 0
-Chromosome 15987 
-Value = 0
-Chromosome 34424 
-Value = 0
-Chromosome 3864 
-Value = 0
-Chromosome 67930 
-Value = 0
-Chromosome 77949 
-Value = 0
-Chromosome 157 
-Value = 6.0
-Chromosome 31197 
-Value = 0
-Chromosome 46142 
-Value = 0
-Chromosome 1183 
+Chromosome 80004 
 Value = 1.0
-Chromosome 44705 
+Chromosome 37221 
 Value = 0
-Chromosome 48449 
+Chromosome 76324 
 Value = 0
--- Population --
-Log - Generation = 5
--- Population --
-Chromosome 80002 
-Value = 9
-Chromosome 58085 
+Chromosome 170 
+Value = 6
+Chromosome 2765 
+Value = 6
+Chromosome 6830 
 Value = 0
-Chromosome 2790 
+Chromosome 49649 
 Value = 0
-Chromosome 80009 
-Value = 3
-Chromosome 73993 
+Chromosome 147 
 Value = 0
-Chromosome 23177 
+Chromosome 25653 
 Value = 0
-Chromosome 5547 
+Chromosome 58614 
 Value = 0
-Chromosome 50412 
+Chromosome 11574 
 Value = 0
-Chromosome 13228 
+Chromosome 19126 
 Value = 0
-Chromosome 80015 
-Value = 2
-Chromosome 58702 
+Chromosome 633 
+Value = 9.0
+Chromosome 68219 
 Value = 0
-Chromosome 80014 
-Value = 5.0
-Chromosome 1136 
-Value = 1.0
-Chromosome 80016 
-Value = 5
-Chromosome 78642 
+Chromosome 11740 
 Value = 0
-Chromosome 54995 
+Chromosome 62941 
 Value = 0
-Chromosome 42932 
-Value = 0
-Chromosome 24984 
-Value = 0
-Chromosome 72891 
-Value = 0
-Chromosome 9083 
-Value = 0
-Chromosome 25884 
-Value = 0
-Chromosome 5980 
-Value = 0
-Chromosome 157 
-Value = 7.0
-Chromosome 17249 
+Chromosome 34174 
 Value = 0
 -- Population --

@@ -22,7 +22,7 @@ public class SOARoundRobinTOScale_GP {
     private static final String pathLogsGrammars = System.getProperty("user.dir").concat("/LogsGrammars/");
     private static String pathLogsUsedCommands="";
 
-    public static void main(String args[]) throws Exception {
+    public static void matchMain() {
         //String pathSOA = args[0];
         //String pathLog = args[1];
         //pathLogsUsedCommands = args[2];
@@ -39,7 +39,7 @@ public class SOARoundRobinTOScale_GP {
         System.out.println(pathSOA);
         System.out.println(pathLog);
 
-        while (!finalizarSOA(pathSOA)) {
+        //while (!finalizarSOA(pathSOA)) {
             //procuro a existencia dos arquivos a serem processados.
             ArrayList<String> mathSOA = buscarAquivos(pathSOA);
             for (String arquivo : mathSOA) {
@@ -65,7 +65,7 @@ public class SOARoundRobinTOScale_GP {
                 e.printStackTrace();
             }
 
-        }
+        //}
     }
 
     /**

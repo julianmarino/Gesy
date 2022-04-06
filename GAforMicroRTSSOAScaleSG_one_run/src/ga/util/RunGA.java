@@ -70,7 +70,7 @@ public class RunGA {
 	 */
 	public Population run(RoundRobinEliteandSampleEval evalFunction, String scriptsSetCover, HashSet<String> booleansUsed) {
 		
-		runmRTS();
+		//runmRTS();
 		
 		// Creating the table of scripts
 		scrTable = new ScriptsTable(pathTableScripts);

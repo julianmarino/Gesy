@@ -1,0 +1,20 @@
+Tupla A1 = (170;)
+Tupla A2 = 52764;
+---------AIs---------
+AI 1 = ChromosomeAI_P1 {AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},StrongestEnemy{-}}}}
+AI 2 = ChromosomeAI_P1 forFunction{{If:{SimpleConditional{HaveQtdUnitsbyType [QuantityParam:{value=12}, UnitTypeParam:{selectedTypes=[Heavy]}]} Then:{{TrainBasic:{Params:{ConstructionTypeParam:{selectedTypes=[Barracks]},UnitTypeParam:{selectedTypes=[Heavy]},QuantityParam:{value=50},PriorityPositionParam:{selectedPosition=[EnemyDirection]}}}}}}},{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Light]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},LessHealthyEnemy:{-}}}}}{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},WeakestEnemy{-}}}}
+
+---------Mapa---------
+Mapa= maps/battleMaps/Others/RangedHeavyMixed.xml
+
+Total de actions= 325 sumAi1= 1.0 sumAi2= 12.0
+
+Tempos de AI 1 = ChromosomeAI_P1 {AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},StrongestEnemy{-}}}}
+Tempo minimo= 0.0 Tempo maximo= 1.0 Tempo medio= 0.003076923076923077
+Tempos de AI 2 = ChromosomeAI_P1 forFunction{{If:{SimpleConditional{HaveQtdUnitsbyType [QuantityParam:{value=12}, UnitTypeParam:{selectedTypes=[Heavy]}]} Then:{{TrainBasic:{Params:{ConstructionTypeParam:{selectedTypes=[Barracks]},UnitTypeParam:{selectedTypes=[Heavy]},QuantityParam:{value=50},PriorityPositionParam:{selectedPosition=[EnemyDirection]}}}}}}},{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Light]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},LessHealthyEnemy:{-}}}}}{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},WeakestEnemy{-}}}}
+Tempo minimo= 0.0 Tempo maximo= 8.0 Tempo medio= 0.036923076923076927
+
+Winner 0
+Game Over
+Avg Response ChromosomeAI_P1 {AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},StrongestEnemy{-}}}} 1
+Avg Response ChromosomeAI_P1 forFunction{{If:{SimpleConditional{HaveQtdUnitsbyType [QuantityParam:{value=12}, UnitTypeParam:{selectedTypes=[Heavy]}]} Then:{{TrainBasic:{Params:{ConstructionTypeParam:{selectedTypes=[Barracks]},UnitTypeParam:{selectedTypes=[Heavy]},QuantityParam:{value=50},PriorityPositionParam:{selectedPosition=[EnemyDirection]}}}}}}},{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Light]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},LessHealthyEnemy:{-}}}}}{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},WeakestEnemy{-}}}} 0

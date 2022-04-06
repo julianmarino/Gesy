@@ -22,6 +22,8 @@ import ga.model.Chromosome;
 import ga.model.Population;
 import ga.util.PreSelection;
 import model.EvalResult;
+import util.SOA.SOARoundRobinTOScale;
+import util.SOA.SOARoundRobinTOScale_GP;
 import util_.LeitorLog;
 
 public class RoundRobinEliteandSampleEval implements RatePopulation {
@@ -189,14 +191,15 @@ public class RoundRobinEliteandSampleEval implements RatePopulation {
 			}
 		}
 
-		while (hasSOAArq()) {
-			try {
-				Thread.sleep(50000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
+//		while (hasSOAArq()) {
+//			try {
+//				Thread.sleep(50000);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//		}
+		SOARoundRobinTOScale_GP.matchMain();
 
 	}
 

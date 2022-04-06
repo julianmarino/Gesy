@@ -1,0 +1,19 @@
+Tupla A1 = (227;)
+Tupla A2 = 44253;
+---------AIs---------
+AI 1 = ChromosomeAI_P1 {AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Light]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},MostHealthyEnemy:{-}}}}
+AI 2 = ChromosomeAI_P1 {If:{SimpleConditional{HaveQtdUnitsbyType [QuantityParam:{value=11}, UnitTypeParam:{selectedTypes=[Ranged]}]} Then:{{MoveToUnitBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},MostHealthyEnemy:{-}}}}}}}{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Worker]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},WeakestEnemy{-}}}}
+
+---------Mapa---------
+Mapa= maps/battleMaps/Others/RangedHeavyMixed.xml
+
+Total de actions= 2000 sumAi1= 0.0 sumAi2= 5.0
+
+Tempos de AI 1 = ChromosomeAI_P1 {AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Light]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},MostHealthyEnemy:{-}}}}
+Tempo minimo= 0.0 Tempo maximo= 0.0 Tempo medio= 0.0
+Tempos de AI 2 = ChromosomeAI_P1 {If:{SimpleConditional{HaveQtdUnitsbyType [QuantityParam:{value=11}, UnitTypeParam:{selectedTypes=[Ranged]}]} Then:{{MoveToUnitBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},MostHealthyEnemy:{-}}}}}}}{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Worker]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},WeakestEnemy{-}}}}
+Tempo minimo= 0.0 Tempo maximo= 1.0 Tempo medio= 0.0025
+
+Winner -1
+Game Over
+Avg Response ChromosomeAI_P1 {If:{SimpleConditional{HaveQtdUnitsbyType [QuantityParam:{value=11}, UnitTypeParam:{selectedTypes=[Ranged]}]} Then:{{MoveToUnitBasic:{Params:{UnitTypeParam:{selectedTypes=[Heavy]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},MostHealthyEnemy:{-}}}}}}}{AttackBasic:{Params:{UnitTypeParam:{selectedTypes=[Worker]},PlayerTargetParam:{selectedPlayerTarget=[Enemy]},WeakestEnemy{-}}}} 0
