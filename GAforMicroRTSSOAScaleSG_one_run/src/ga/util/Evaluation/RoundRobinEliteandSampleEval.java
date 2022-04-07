@@ -173,15 +173,18 @@ public class RoundRobinEliteandSampleEval implements RatePopulation {
 	 * Verifica se os jobs jÃ¡ foram encerrados no cluster.
 	 */
 	private void controllExecute() {
-
+		//System.out.println("validation1");
 		// look for clients and share the data.
 		while (hasSOACentralFile()) {
+			//System.out.println("validation2");
 			// update the quantity of SOA Clients.
 			updateSOAClients();
 			// update the file to process
 			updateFiles();
 			// share the files between SOA Clients
 			shareFiles();
+			
+			SOARoundRobinTOScale_GP.matchMain();
 
 			try {
 				Thread.sleep(200);
@@ -199,7 +202,7 @@ public class RoundRobinEliteandSampleEval implements RatePopulation {
 //				e.printStackTrace();
 //			}
 //		}
-		SOARoundRobinTOScale_GP.matchMain();
+		
 
 	}
 
@@ -242,6 +245,7 @@ public class RoundRobinEliteandSampleEval implements RatePopulation {
 			for (File folder : configSOAFolder.listFiles()) {
 				if (folder.listFiles().length == 0) {
 					SOA_Folders.add(folder.getAbsolutePath());
+					System.out.println("soapath "+folder.getAbsolutePath());
 				}
 			}
 		}
@@ -285,6 +289,7 @@ public class RoundRobinEliteandSampleEval implements RatePopulation {
 	private boolean hasSOACentralFile() {
 		File centralF = new File(pathCentral);
 		if (centralF.list().length > 0) {
+			System.out.println("size files current"+centralF.list().length );
 			return true;
 		}
 		return false;

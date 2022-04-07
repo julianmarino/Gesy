@@ -29,12 +29,13 @@ public class SOARoundRobinTOScale_GP {
         //String pathSOA = "/home/rubens/cluster/DeckEvaluation/configSOA/SOA1/";
         //String pathLog = "/home/rubens/cluster/DeckEvaluation/logs/";
         int qtdMapas = 1;
-        String pathSOA =  System.getProperty("user.dir").concat("\\configSOA\\SOA1\\");
-        String pathLog = System.getProperty("user.dir").concat("\\logs\\");
-        pathLogsUsedCommands = System.getProperty("user.dir").concat("\\commandsUsed\\COMM1\\");
+        String pathSOA =  System.getProperty("user.dir").concat("/configSOA/SOA1/");
+        String pathLog = System.getProperty("user.dir").concat("/logs/");
+        pathLogsUsedCommands = System.getProperty("user.dir").concat("/commandsUsed/COMM1/");
         File SOA = new File(pathSOA);
         if (!SOA.exists()) {
             SOA.mkdir();
+            System.out.println("mkdir");
         }
         System.out.println(pathSOA);
         System.out.println(pathLog);

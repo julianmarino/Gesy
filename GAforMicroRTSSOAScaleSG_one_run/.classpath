@@ -10,9 +10,8 @@
 	<classpathentry kind="lib" path="C:/code phd/GP_SHARED/GAforMicroRTSSOAScaleSG_one_run/lib/javax.persistence.jar"/>
 	<classpathentry kind="lib" path="C:/code phd/GP_SHARED/GAforMicroRTSSOAScaleSG_one_run/lib/javax.persistence-api-2.2.jar"/>
 	<classpathentry kind="lib" path="C:/code phd/GP_SHARED/GAforMicroRTSSOAScaleSG_one_run/lib/jaxws-rt-3.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/code phd/GP_SHARED/GAforMicroRTSSOAScaleSG_one_run/lib/jdom.jar"/>
-	<classpathentry kind="lib" path="C:/code phd/GP_SHARED/GAforMicroRTSSOAScaleSG_one_run/lib/jdom2-2.0.6.jar"/>
 	<classpathentry kind="lib" path="C:/code phd/GP_SHARED/GAforMicroRTSSOAScaleSG_one_run/lib/minimal-json-0.9.4.jar"/>
 	<classpathentry kind="lib" path="C:/code phd/GP_SHARED/GAforMicroRTSSOAScaleSG_one_run/lib/weka.jar"/>
+	<classpathentry kind="lib" path="C:/code phd/GP_SHARED/GAforMicroRTSSOAScaleSG_one_run/lib/jdom.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

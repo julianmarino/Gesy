@@ -180,17 +180,19 @@ public class RunTests_SetCover_GP {
 		String curriculumportfolioIds=curriculumportfolio;
 		curriculumportfolio=ga.recoverScriptGenotype(curriculumportfolio).trim();
 		System.out.println("Best script  "+curriculumportfolio);
-		try {
-			ga.runMainGame(curriculumportfolio,curriculumportfolio);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		
+		//*** Enable this block if tou wanna see the final script playing the game in a mRTS GUI****
+//		try {
+//			ga.runMainGame(curriculumportfolio,curriculumportfolio);
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		
 		//print the best script
 		PrintWriter writer;
 		try {
-			writer = new PrintWriter("../results/output_script.txt", "UTF-8");
+			writer = new PrintWriter("../results/result_best_script.txt", "UTF-8");
 			writer.println(curriculumportfolio);
 			writer.close();
 		} catch (FileNotFoundException e) {
